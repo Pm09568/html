@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function fact(){
+            
+            n=document.getElementById('t1').value;
+            let fact=1;
+            for(let i=1;i<=n;i++){
+                fact=fact*i;
+            }
+            document.write(fact);
+        }
+        fact();
+    </script>
+    <label>Enter number</label>
+        <input type="text" id="t1"><br><br>
+        <button onclick="fact()"> click here</button>
+
+</body>
+</html>
