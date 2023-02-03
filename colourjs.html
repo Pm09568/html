@@ -5,20 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
-    <style>
+    <!-- <style>
         div{
             background-color: aqua;
         }
-    </style>
+    </style> -->
+</head>`    
+<body>  
+    <div style="background-color: blue;" id="d1" onmouseover="change()" onmouseout="change2()" >
+    
+        HELLO  HTML ,CSS.AND JAVASCRIPT
+    </div>
+    <img id="d2" src="./image/1_.jpeg" width="100" height="100">
+    
     <script>
-        function change (){
-        document.getElementById("d1").style.backgroundColor="yellow";
+        function change(){
+            document.getElementById("d1").style.backgroundColor="yellow";
+            
+            document.getElementById("d2").src="https://cdn.searchenginejournal.com/wp-content/uploads/2022/06/image-search-1600-x-840-px-62c6dc4ff1eee-sej-760x400.webp";
+        }
+        function change2(){
+            document.getElementById("d1").style.backgroundColor="blue";
+            document.getElementById("d2").src="./image/1_.jpeg";
         }
     </script>
-</head>
-<body>  
-    <div id="d1" onmouseover="change()">
-        HEllO HTML ,CSS.AND JAVASCRIPT
-    </div>
 </body>
 </html>
